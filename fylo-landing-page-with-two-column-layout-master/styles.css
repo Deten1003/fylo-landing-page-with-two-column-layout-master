@@ -1,0 +1,314 @@
+:root{
+    
+--Very-Dark-Blue: hsl(243, 87%, 12%);
+--Desaturated-Blue: hsl(238, 22%, 44%);
+--Bright-Blue: hsl(224, 93%, 58%);
+--Moderate-Cyan: hsl(170, 45%, 43%);
+--Light-Grayish-Blue: hsl(240, 75%, 98%);
+--Light-Gray: hsl(0, 0%, 75%);
+--header-font: 'Open Sans', sans-serif;
+--body-font: 'Raleway', sans-serif;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--Light-Grayish-Blue);
+}
+.picture img{
+     width: 60%;
+}
+header{
+
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-bar li{
+     display: inline-block;
+     margin-left: 20px;
+     font-family: var(--header-font);
+     font-size: 16px;
+}
+.nav-bar a{
+    padding: 0;
+    text-decoration: none;
+    color: var(--desaturated-blue);
+}
+.heroine h1{
+    text-align: center;
+    font-weight: 700;
+    font-family: var(--header-font);
+    color: var(--Very-Dark-Blue);
+    padding: 30px;
+}
+.heroine p{
+    text-align: center;
+    font-weight: 400;
+    font-family: var(--body-font);
+    padding: 20px;
+}
+.heroine form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.heroine #email{
+    font-family: var(--body-font);
+    width: 80%;
+    padding-right: 20px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.heroine button{
+    
+    width: 80%;
+    border: none;
+    border-bottom: 2px ;
+    border-radius: 5px;
+    font-family: var(--body-font);
+    padding: 10px;
+    background-color: var(--Bright-Blue);
+    color: var(--Light-Grayish-Blue);
+    font-weight: 700;
+   
+}
+.features h2{
+    font-size: 20px;
+    font-family: var(--body-font);
+    margin-top: 30px;
+}
+.text p{
+    margin-top:20px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--body-font);
+    color: var(--Desaturated-blue);
+}
+.feature-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.feature-text{
+    padding: 30px;
+}
+.feature-img button{
+    display: flex;
+    align-items: center;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid var(--Moderate-Cyan);
+    background-color: transparent;
+    padding: 5px;
+    color: var(--Moderate-Cyan);
+}
+.testemonial{
+    background-color:white;
+
+    border-radius: 5px;
+}
+.testemonial img{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 20px;
+}
+.testemonial  p{
+    font-family: var(--body-font);
+    margin-top: 0;
+
+}  
+
+.test2{
+    display: flex;
+    align-items:center ;
+    margin-top: 20px;
+}
+.test2 img{
+    width: 30px;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+.test2 p, h3{
+    font-family: var(--body-font);
+}
+.test2 h3{
+   color: var(--Very-Dark-Blue);
+   font-weight: 700;
+}
+.sign-up{
+    text-align: center;
+    background-color: var(--Desaturated-Blue);
+    padding: 40px;
+color: white;
+}
+.sign-up-text h1{
+    margin: 30px;
+    font-family: var(--body-font);
+}
+.sign-up-text p{
+    margin: 30px;
+    font-family: var(--header-font);
+}
+.sign-up form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px;
+    font-family: var(--header-font);
+}
+.sign-up input{
+    padding: 10px;
+    color: var(--Light-Gray);
+    border-radius: 3px;
+    margin-bottom: 15px;
+    border: none;
+    font-family: var(--header-font);
+}
+.sign-up button{
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    font-family: var(--body-font);
+    background-color: var(--Bright-Blue);
+}
+footer{
+    background-color: var(--Very-Dark-Blue);
+    color: var(--Light-Grayish-Blue);
+    padding: 50px;
+    font-family: var(--body-font);
+}
+.container{
+     margin-top: 20px;
+}
+.contact i{
+    padding: 5px;
+}
+footer li {
+    list-style-type: none;
+}
+.contact i{
+    margin-right: 5px;
+}
+.footer-menu1 li{
+    padding: 5px;
+   list-style-type: none;
+   font-family: var(--header-font);
+}
+.footer-menu ul{
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+.footer-menu li{
+    padding: 5px;
+   list-style-type: none;
+}
+.apps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.apps i{
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 30px;
+    margin:5px;
+}
+
+@media only screen and (min-width:800px){
+    .heroine{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row-reverse;
+    }
+    .heroine .girl{
+        width: 50%;
+    }
+    .heroine img{
+        width:50%;
+    }
+    .heroine form{
+        flex-direction: row;
+    }
+    .heroine h1{
+        text-align: left;
+    }
+    .heroine p{
+        text-align: left;
+    }
+    .heroine #email{
+       width: 70%;
+    }
+    .heroine button{
+        width: 50%;
+    }
+    .feature-text h2{
+        text-align: left;
+    }
+    .feature-text p{
+        text-align: left;
+    }
+    
+    .feature-text img{
+        width: 200px;
+    }
+    .features{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row-reverse;
+        text-align: left;
+        padding: 30px;
+    }
+        .image{
+            margin-left: 30px;
+        }
+    .feature-img{
+        display: flex;
+        justify-content:left;
+        align-items: center;
+        margin: 10px;
+    
+    }
+    .test2 img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .testemonial{
+        padding: 20px;
+        margin: 30px;
+    } 
+    .sign-up{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+    }
+    .sign-up input{
+        width: 400px;
+    }
+    .sign-up button{
+        width: 200px;
+    }
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items:flex-start ;
+        
+    }
+   
+    
+}
